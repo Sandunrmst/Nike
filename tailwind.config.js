@@ -5,7 +5,7 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    
+
     fontSize: {
       xs: ['12px', '16px'],
       sm: ['14px', '20px'],
@@ -18,6 +18,7 @@ export default {
       '8xl': ['96px', '106px']
     },
 
+    //Extended the exsiting css file
     extend: {
       fontFamily: {
         palanquin: ['Palanquin', 'sans-serif'],
