@@ -1,6 +1,7 @@
 import Nav from './components/Nav'
 import './index.css'
 import Hero from './sections/Hero'
+import PopularProduct from './sections/PopularProduct'
 
 export default function App() {
   return (
@@ -11,7 +12,7 @@ export default function App() {
       </section>
 
       <section className='padding'>
-        Popular product
+        <PopularProduct/>
       </section>
 
       <section className='padding'>
