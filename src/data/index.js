@@ -78,21 +78,21 @@ export const reviews = [
     {   id:1,
         imgURL: customer1,
         customerName: 'Morich Brown',
-        rating: 4.5,
+        rating: 4.2,
         feedback: "It was really great working with this seller. The designer is extremely professional, efficient and meticulous with his work. Highly recommended."
     },
     {   
         id:2,
         imgURL: customer2,
         customerName: 'Lota Mongeskar',
-        rating: 4.5,
+        rating: 4.7,
         feedback: "A great person to work with and gave exactly as what I envisioned, even better actually. Will definitely work with him again in the future."
     },
     {   
         id:3,
         imgURL: customer1,
         customerName: 'James Scott',
-        rating: 4.5,
+        rating: 4.3,
         feedback: "He was super responsive and available. The work was carried out very quickly with all the feedback requested. Highly recommend experience to replicate."
     }
 ];
@@ -102,10 +102,10 @@ export const footerLinks = [
     {
         title: "Products",
         links: [
-            { name: "Air Force 1", link: "/" },
-            { name: "Air Max 1", link: "/" },
-            { name: "Air Jordan 1", link: "/" },
-            { name: "Air Force 2", link: "/" },
+            { name: "Air Force", link: "/" },
+            { name: "Air Max", link: "/" },
+            { name: "Air Jordan", link: "/" },
+            { name: "Air Force", link: "/" },
             { name: "Nike Waffle Racer", link: "/" },
             { name: "Nike Cortez", link: "/" },
         ],
@@ -123,8 +123,8 @@ export const footerLinks = [
     {
         title: "Get in touch",
         links: [
-            { name: "customer@nike.com", link: "mailto:customer@nike.com" },
-            { name: "+92554862354", link: "tel:+92554862354" },
+            { name: "info@nike.com", link: "mailto:info@nike.com" },
+            { name: "+1 (415) 481 000", link: "tel:+1 (415) 481 000" },
         ],
     },
 ];
