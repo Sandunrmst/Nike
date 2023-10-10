@@ -1,3 +1,4 @@
+import { copyrightSign } from "../assets/icons"
 import { footerLogo } from "../assets/images"
 import { footerLinks, socialMedia } from "../data"
 
@@ -12,7 +13,7 @@ const Footer = () => {
 
           <div className="flex items-center gap-5 mt-8">
             {socialMedia.map((icon)=>(
-              <div className="flex justify-center items-center w-12 h-12 bg-white rounded-full">
+              <div className="flex justify-center items-center w-12 h-12 bg-white rounded-full hover:bg-coral-red transition-all cursor-pointer">
                 <img src={icon.src} alt={icon.alt} width={25}/>
               </div>
             ))}
@@ -32,6 +33,23 @@ const Footer = () => {
               ))}
         </div>
       </div>
+      <hr className="mt-12 text-slate-300"></hr>
+      <div className='flex justify-between items-center gap-5 text-white-400 mt-3 max-sm:flex-col max-sm:items-center'>
+        <div className='flex justify-start items-center gap-3 font-montserrat cursor-pointer'>
+          <img
+            src={copyrightSign}
+            alt='copyright sign'
+            width={20}
+            height={20}
+            className='rounded-full m-0'
+          />
+          <a href="https://sandunrmst.com/" target="_blank">Copyright. All rights reserved.</a>
+        </div>
+
+        <p className='font-montserrat cursor-pointer'>Terms & Conditions</p>
+
+      </div>
+
     </footer>
   )
 }

@@ -1,5 +1,5 @@
 import { facebook, instagram, shieldTick, support, truckFast, twitter } from "../assets/icons";
-import { bigShoe1, bigShoe2, bigShoe3, customer1, customer2, shoe4, shoe5, shoe6, shoe7, thumbnailShoe1, thumbnailShoe2, thumbnailShoe3 } from "../assets/images";
+import { bigShoe1, bigShoe2, bigShoe3, customer1, customer2, customer3, shoe4, shoe5, shoe6, shoe7, thumbnailShoe1, thumbnailShoe2, thumbnailShoe3 } from "../assets/images";
 
 export const navLinks = [
     { href: "#home", label: "Home" },
@@ -75,12 +75,6 @@ export const services = [
 ];
 
 export const reviews = [
-    {   id:1,
-        imgURL: customer1,
-        customerName: 'Morich Brown',
-        rating: 4.2,
-        feedback: "It was really great working with this seller. The designer is extremely professional, efficient and meticulous with his work. Highly recommended."
-    },
     {   
         id:2,
         imgURL: customer2,
@@ -88,9 +82,17 @@ export const reviews = [
         rating: 4.7,
         feedback: "A great person to work with and gave exactly as what I envisioned, even better actually. Will definitely work with him again in the future."
     },
+    
+    {   id:1,
+        imgURL: customer1,
+        customerName: 'Morich Brown',
+        rating: 4.2,
+        feedback: "It was really great working with this seller. The designer is extremely professional, efficient and meticulous with his work. Highly recommended."
+    },
+
     {   
         id:3,
-        imgURL: customer1,
+        imgURL: customer3,
         customerName: 'James Scott',
         rating: 4.3,
         feedback: "He was super responsive and available. The work was carried out very quickly with all the feedback requested. Highly recommend experience to replicate."
