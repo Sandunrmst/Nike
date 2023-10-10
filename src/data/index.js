@@ -75,17 +75,25 @@ export const services = [
 ];
 
 export const reviews = [
-    {
+    {   id:1,
         imgURL: customer1,
         customerName: 'Morich Brown',
         rating: 4.5,
-        feedback: "The attention to detail and the quality of the product exceeded my expectations. Highly recommended!"
+        feedback: "It was really great working with this seller. The designer is extremely professional, efficient and meticulous with his work. Highly recommended."
     },
-    {
+    {   
+        id:2,
         imgURL: customer2,
         customerName: 'Lota Mongeskar',
         rating: 4.5,
-        feedback: "The product not only met but exceeded my expectations. I'll definitely be a returning customer!"
+        feedback: "A great person to work with and gave exactly as what I envisioned, even better actually. Will definitely work with him again in the future."
+    },
+    {   
+        id:3,
+        imgURL: customer1,
+        customerName: 'James Scott',
+        rating: 4.5,
+        feedback: "He was super responsive and available. The work was carried out very quickly with all the feedback requested. Highly recommend experience to replicate."
     }
 ];
 

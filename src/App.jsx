@@ -1,5 +1,6 @@
 import Nav from './components/Nav'
 import './index.css'
+import CustomerReview from './sections/CustomerReview'
 import Hero from './sections/Hero'
 import PopularProduct from './sections/PopularProduct'
 import Services from './sections/Services'
@@ -31,7 +32,7 @@ export default function App() {
       </section>
 
       <section className='padding bg-pale-blue'>
-        Customer Review
+        <CustomerReview/>
       </section>
 
       <section className='padding-x sm:py-32 py-16 w-full'>
