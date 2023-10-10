@@ -3,6 +3,7 @@ import './index.css'
 import Hero from './sections/Hero'
 import PopularProduct from './sections/PopularProduct'
 import Services from './sections/Services'
+import SpecialOffer from './sections/SpecialOffer'
 import SuperQuality from './sections/SuperQuality'
 
 export default function App() {
@@ -26,7 +27,7 @@ export default function App() {
       </section>
 
       <section className='padding'>
-        Special Offers 
+        <SpecialOffer/> 
       </section>
 
       <section className='padding bg-pale-blue'>

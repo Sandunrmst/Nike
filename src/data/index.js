@@ -65,11 +65,11 @@ export const services = [
     {
         imgURL: shieldTick,
         label: "Secure Payment",
-        subtext: "Experience worry-free transactions with our secure payment options."
+        subtext: "Enjoy peace of mind with our secure transaction methods."
     },
     {
         imgURL: support,
-        label: "Love to help you",
+        label: "Delighted to assist you",
         subtext: "Our dedicated team is here to assist you every step of the way."
     },
 ];
